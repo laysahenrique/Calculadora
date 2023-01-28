@@ -2,8 +2,8 @@ object FormCalculadora: TFormCalculadora
   Left = 0
   Top = 0
   Caption = 'Calculadora'
-  ClientHeight = 299
-  ClientWidth = 635
+  ClientHeight = 358
+  ClientWidth = 298
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -11,6 +11,7 @@ object FormCalculadora: TFormCalculadora
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
+  Position = poScreenCenter
   PixelsPerInch = 96
   TextHeight = 13
 end
