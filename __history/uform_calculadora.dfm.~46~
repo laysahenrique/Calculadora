@@ -1,0 +1,242 @@
+object FormCalculadora: TFormCalculadora
+  Left = 0
+  Top = 0
+  Caption = 'Calculadora'
+  ClientHeight = 321
+  ClientWidth = 198
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnShow = FormShow
+  DesignSize = (
+    198
+    321)
+  PixelsPerInch = 96
+  TextHeight = 13
+  object PanelFundo: TPanel
+    Left = -8
+    Top = -18
+    Width = 230
+    Height = 380
+    ShowCaption = False
+    TabOrder = 24
+  end
+  object btn7: TButton
+    Left = 8
+    Top = 128
+    Width = 41
+    Height = 41
+    Caption = '7'
+    TabOrder = 14
+  end
+  object btn8: TButton
+    Left = 55
+    Top = 128
+    Width = 41
+    Height = 41
+    Caption = '8'
+    TabOrder = 0
+  end
+  object btn9: TButton
+    Left = 102
+    Top = 128
+    Width = 41
+    Height = 41
+    Caption = '9'
+    TabOrder = 1
+  end
+  object btn4: TButton
+    Left = 8
+    Top = 175
+    Width = 41
+    Height = 41
+    Caption = '4'
+    TabOrder = 2
+  end
+  object btn5: TButton
+    Left = 55
+    Top = 175
+    Width = 41
+    Height = 41
+    Caption = '5'
+    TabOrder = 3
+  end
+  object btn6: TButton
+    Left = 102
+    Top = 175
+    Width = 41
+    Height = 41
+    Caption = '6'
+    TabOrder = 4
+  end
+  object btn1: TButton
+    Left = 8
+    Top = 222
+    Width = 41
+    Height = 41
+    Caption = '1'
+    TabOrder = 5
+  end
+  object btn2: TButton
+    Left = 55
+    Top = 222
+    Width = 41
+    Height = 41
+    Caption = '2'
+    TabOrder = 6
+  end
+  object btn3: TButton
+    Left = 102
+    Top = 222
+    Width = 41
+    Height = 41
+    Caption = '3'
+    TabOrder = 7
+  end
+  object btnMaisMenos: TButton
+    Left = 8
+    Top = 269
+    Width = 41
+    Height = 41
+    Caption = '+/-'
+    TabOrder = 8
+    OnClick = btnMaisMenosClick
+  end
+  object btn0: TButton
+    Left = 55
+    Top = 269
+    Width = 41
+    Height = 41
+    Caption = '0'
+    TabOrder = 9
+  end
+  object btnVirgula: TButton
+    Left = 102
+    Top = 269
+    Width = 41
+    Height = 41
+    Caption = ','
+    TabOrder = 10
+  end
+  object btnExpoente: TButton
+    Left = 55
+    Top = 81
+    Width = 41
+    Height = 41
+    Caption = 'x'#178
+    TabOrder = 11
+    OnClick = btnExpoenteClick
+  end
+  object btnRaiz: TButton
+    Left = 102
+    Top = 81
+    Width = 41
+    Height = 41
+    Caption = #8730'x'
+    TabOrder = 12
+    OnClick = btnRaizClick
+  end
+  object btnFracao: TButton
+    Left = 8
+    Top = 81
+    Width = 41
+    Height = 41
+    Caption = #8543'x'
+    TabOrder = 13
+    OnClick = btnFracaoClick
+  end
+  object btnLimparLinha: TButton
+    Left = 55
+    Top = 34
+    Width = 41
+    Height = 41
+    Caption = 'CE'
+    TabOrder = 15
+    OnClick = btnLimparLinhaClick
+  end
+  object btnApagar: TButton
+    Left = 102
+    Top = 34
+    Width = 41
+    Height = 41
+    Caption = 'C'
+    TabOrder = 16
+  end
+  object btnResto: TButton
+    Left = 8
+    Top = 34
+    Width = 41
+    Height = 41
+    Caption = '%'
+    TabOrder = 17
+    OnClick = btnRestoClick
+  end
+  object btnMultiplicacao: TButton
+    Left = 149
+    Top = 128
+    Width = 41
+    Height = 41
+    Caption = 'x'
+    TabOrder = 18
+    OnClick = btnMultiplicacaoClick
+  end
+  object btnSubitracao: TButton
+    Left = 149
+    Top = 175
+    Width = 41
+    Height = 41
+    Caption = '-'
+    TabOrder = 19
+    OnClick = btnSubitracaoClick
+  end
+  object btnSoma: TButton
+    Left = 149
+    Top = 222
+    Width = 41
+    Height = 41
+    Caption = '+'
+    TabOrder = 20
+    OnClick = btnSomaClick
+  end
+  object btnIgualdade: TButton
+    Left = 149
+    Top = 269
+    Width = 41
+    Height = 41
+    Caption = '='
+    TabOrder = 21
+    OnClick = btnIgualdadeClick
+  end
+  object btnDivisao: TButton
+    Left = 149
+    Top = 81
+    Width = 41
+    Height = 41
+    Caption = #247
+    TabOrder = 22
+    OnClick = btnDivisaoClick
+  end
+  object btnLimparUltimoNumero: TButton
+    Left = 149
+    Top = 34
+    Width = 41
+    Height = 41
+    Caption = #9003
+    TabOrder = 23
+  end
+  object EditResultado: TEdit
+    Left = 8
+    Top = 9
+    Width = 182
+    Height = 20
+    Alignment = taRightJustify
+    Anchors = [akRight, akBottom]
+    TabOrder = 25
+    ExplicitTop = 16
+  end
+end
