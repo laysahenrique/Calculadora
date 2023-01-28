@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2023/01/28 12:27:30.271,=C:\Users\laysa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/28 12:27:40.072,C:\Users\laysa\Documents\Embarcadero\Studio\Projects\uform_calculadora.dfm=C:\Users\laysa\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/01/28 12:27:40.072,C:\Users\laysa\Documents\Embarcadero\Studio\Projects\uform_calculadora.pas=C:\Users\laysa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/28 12:29:29.985,E:\Projetos\Calculadora-Delphi\uform_calculadora.dfm=C:\Users\laysa\Documents\Embarcadero\Studio\Projects\uform_calculadora.dfm</Transaction>
+    <Transaction>2023/01/28 12:29:29.985,E:\Projetos\Calculadora-Delphi\uform_calculadora.pas=C:\Users\laysa\Documents\Embarcadero\Studio\Projects\uform_calculadora.pas</Transaction>
+    <Transaction>2023/01/28 12:37:35.134,C:\Users\laysa\Documents\Embarcadero\Studio\Projects\Project_Calculadora.dproj=C:\Users\laysa\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/01/28 12:40:48.317,E:\Projetos\Calculadora-Delphi\Project_Calculadora.dproj=C:\Users\laysa\Documents\Embarcadero\Studio\Projects\Project_Calculadora.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
